@@ -1,5 +1,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+// import logo Header 
+import headerLogo from './assets/img/'
 
 //Importa Header
 
@@ -18,9 +20,11 @@ function App() {
   return (
     <>
 
-      <Header />
-      <Main />
-      <Footer />
+      <header>
+        <img src="headerLogo" alt="" />
+      </header>
+      <main></main>
+      <footer></footer>
 
     </>
   )
