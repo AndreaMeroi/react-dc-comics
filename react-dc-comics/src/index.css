@@ -1,0 +1,23 @@
+body {
+    font-family: 'Open Sans Variable', sans-serif;
+}
+
+header {
+
+    &.Header-centrato {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+
+        a {
+            text-decoration: none;
+            color: black;
+            padding: 1rem;
+
+        }
+    }
+}

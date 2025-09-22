@@ -1,5 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+// Import Font step1
+import '@fontsource-variable/open-sans';
 import './index.css'
 import App from './App.jsx'
 
