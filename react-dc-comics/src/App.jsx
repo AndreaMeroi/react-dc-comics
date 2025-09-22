@@ -1,30 +1,26 @@
-
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
-//importo Header
+//Importa Header
 
-import Header from "./components/Header";
+import Header from './components/Header'
 
-//importo Main
+//Importa Main
 
-import Main from './components/Main';
+import Main from './components/Main'
 
-//importo Main
+//Importa Footer
 
-import Footer from './components/Footer';
-
-
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
+
       <Header />
       <Main />
       <Footer />
-
-
 
     </>
   )

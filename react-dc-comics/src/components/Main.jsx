@@ -1,3 +1,5 @@
+const mainContent = 'Content goes here'
+
 export default function Main() {
-    return (<main> Content goes here </main>);
+    return (<main>{mainContent}</main>);
 }
