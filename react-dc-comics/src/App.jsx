@@ -1,50 +1,24 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-// import logo Header 
-import headerLogo from './assets/img/dc-logo.png'
 
-//Importa Header
+//import AppHeader
 
-import Header from './components/Header'
-
+import AppHeader from './components/AppHeader'
 //Importa Main
 
-import Main from './components/Main'
+import AppMain from './components/AppMain'
 
 //Importa Footer
 
-import Footer from './components/Footer'
+import AppFooter from './components/AppFooter'
 
 function App() {
 
   return (
     <>
-
-      <header>
-
-        <div className='Header-centrato'>
-
-          <img src={headerLogo} alt="logo header" />
-
-          <nav>
-            <a href=''>CHARACTERS</a>
-            <a href=''>COMICS</a>
-            <a href=''>MOVIES</a>
-            <a href=''>TV</a>
-            <a href=''>GAMES</a>
-            <a href=''>COLLECTIBLES</a>
-            <a href=''>VIDEOS</a>
-            <a href=''>FANS</a>
-            <a href=''>NEWS</a>
-            <a href=''>SHOP</a>
-          </nav>
-
-        </div>
-
-      </header>
-
-      <main></main>
-      <footer></footer>
+      <AppHeader />
+      <AppMain />
+      <AppFooter />
 
     </>
   )
