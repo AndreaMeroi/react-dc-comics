@@ -1,6 +1,6 @@
 import mainBgImg from '../assets/img/jumbotron.jpg'
 
-import AppBluBar from '../components/AppBluBar'
+import AppBluBar from '../components/'
 
 export default function Main() {
     return (
@@ -12,7 +12,7 @@ export default function Main() {
 
                 <button className='btn'> current series </button>
 
-                <AppBluBar />
+                <AppBluBottomBar />
 
 
 
