@@ -1,6 +1,6 @@
 import mainBgImg from '../assets/img/jumbotron.jpg'
 
-import AppBluBar from '../components/'
+import AppBluBar from '../components/AppBluBar'
 
 export default function Main() {
     return (
