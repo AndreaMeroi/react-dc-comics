@@ -6,7 +6,7 @@ export default function Main() {
     return (
         <main>
 
-            <div className="container-flex">
+            <div className="container">
 
                 <img src={mainBgImg} className='bgImg' alt="bg Img " />
 
