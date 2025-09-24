@@ -1,10 +1,31 @@
-const mainContent = 'Content goes here'
+import mainBgImg from '../assets/img/jumbotron.jpg'
+
+import AppBluBar from '../components/AppBluBar'
 
 export default function Main() {
     return (
         <main>
 
-            <h2> -- Content Goes Here -- </h2>
+            <div className="container-flex">
 
-        </main>)
+                <img src={mainBgImg} className='bgImg' alt="bg Img " />
+
+                <button className='btn'> current series </button>
+
+                <AppBluBar />
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+        </main >
+    )
 }

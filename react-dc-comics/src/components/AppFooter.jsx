@@ -1,10 +1,13 @@
 import footerLogo from '../assets/img/dc-logo-bg.png'
+
 export default function Footer() {
     return (
 
         <footer>
 
             <div className="container">
+
+
 
                 <div className='row'>
 
