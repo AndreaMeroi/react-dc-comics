@@ -7,8 +7,6 @@ export default function Footer() {
 
             <div className="container">
 
-
-
                 <div className='row'>
 
                     <div className='col'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eos perferendis, omnis officia molestiae quae.</div>
