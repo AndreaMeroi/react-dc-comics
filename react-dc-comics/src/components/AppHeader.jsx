@@ -4,7 +4,7 @@ export default function AppHeader() {
 
         <header>
 
-            <div className='Header-centrato'>
+            <div className="container-flex">
 
                 <img src={headerLogo} className="logo" alt="logo header" />
 

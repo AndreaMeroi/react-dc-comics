@@ -32,28 +32,28 @@ body {
 
 header {
 
-    text-align: center;
-    background-color: white;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 
-    &.Header-centrato {
+    .container-flex {
 
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-
-    }
-
-    nav {
-
-        margin-bottom: 1rem;
-
-        a {
-            text-decoration: none;
-            color: black;
-            padding: 1rem;
+        background-color: white;
+        margin-top: 1rem;
 
 
+        nav {
+
+            margin-bottom: 1rem;
+
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 1rem;
+
+
+            }
         }
     }
 }
@@ -69,6 +69,10 @@ main {
 
 footer {
     background-image: url("./assets/img/footer-bg.jpg");
-    min-height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+
 
 }
