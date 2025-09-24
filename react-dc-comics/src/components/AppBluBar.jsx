@@ -2,7 +2,7 @@ import BuyDgImg from '../assets/img/buy-comics-digital-comics.png'
 import MerchImg from '../assets/img/buy-comics-merchandise.png'
 import SubImg from '../assets/img/buy-comics-subscriptions.png'
 import locatorImg from '../assets/img/buy-comics-shop-locator.png'
-import BuyDgImg from '../assets/img/buy-dc-power-visa.svg'
+import PwrVisaImg from '../assets/img/buy-dc-power-visa.svg'
 
 export default function AppBluBar() {
     return (
@@ -25,7 +25,7 @@ export default function AppBluBar() {
                 <a href=""> comic shop locator</a>
             </div>
             <div className="BluBarItem">
-                <img src={BuyDgImg} alt="Buy DG Img" />
+                <img src={PwrVisaImg} alt="Buy DG Img" />
                 <a href=""> dc power visa</a>
             </div>
         </nav>

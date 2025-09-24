@@ -12,7 +12,7 @@ export default function Main() {
 
                 <button className='btn'> current series </button>
 
-                <AppBluBottomBar />
+                <AppBluBar />
 
 
 
