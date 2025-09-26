@@ -1,6 +1,6 @@
 
 import mainBgImg from '../assets/img/jumbotron.jpg'
-import AppBannerBlu from './AppBannerBlu'
+import AppBannerBlu from './appBannerBlu'
 import AppCard from './AppCard'
 
 
@@ -35,7 +35,7 @@ export default function Main() {
                     <div className='row'>
                         <div className='col'>
 
-                            <AppBannerBlu img={"../assets/img/buy-comics-digital-comics.png"} name={"Digital Comics"} />
+                            <AppBannerBlu name={"Digital Comics"} img={"../assets/img/buy-comics-digital-comics.png"} />
 
                             <AppBannerBlu img={"../assets/img/buy-comics-merchandise.png"} name={"DC Merchandise"} />
 

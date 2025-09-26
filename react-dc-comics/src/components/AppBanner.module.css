@@ -1,5 +1,8 @@
 .BluBanner {
     background-color: blue;
+    background-size: contain;
     text-transform: uppercase;
     color: white;
+
+
 }
