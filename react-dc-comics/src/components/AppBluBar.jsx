@@ -7,7 +7,7 @@ import PwrVisaImg from '../assets/img/buy-dc-power-visa.svg'
 export default function AppBluBar() {
     return (
 
-        <nav>
+        <nav className='d-flex'>
             <div className="BluBarItem">
                 <img src={BuyDgImg} alt="Buy DG Img" />
                 <a href=""> digital comics</a>
@@ -28,7 +28,7 @@ export default function AppBluBar() {
                 <img src={PwrVisaImg} alt="Buy DG Img" />
                 <a href=""> dc power visa</a>
             </div>
-        </nav>
+        </nav >
 
     )
 }

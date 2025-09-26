@@ -4,10 +4,8 @@
     box-sizing: border-box;
 }
 
-.container-flex {
+.container {
 
-    display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: white;
     margin-top: 1rem;
@@ -23,18 +21,14 @@ header {
 
     margin-bottom: 1rem;
 
-
-
-
-    nav {
+    .nav {
 
         margin-bottom: 1rem;
 
-        a {
+        .a {
             text-decoration: none;
             color: black;
             padding: 1rem;
-
 
         }
     }

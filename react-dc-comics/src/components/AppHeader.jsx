@@ -1,11 +1,32 @@
 import headerLogo from '../assets/img/dc-logo.png'
 
+const teachers = [
+    {
+        id: 1,
+        text: 'marco',
+        textsurname: 'de luca'
+
+    },
+    {
+        id: 1,
+        text: 'marco',
+        textsurname: 'de luca'
+
+    },
+    {
+        id: 1,
+        text: 'marco',
+        textsurname: 'de luca'
+
+    }
+]
+
 export default function AppHeader() {
     return (
 
         <header>
 
-            <div className="container-flex">
+            <div className="container">
 
                 <img src={headerLogo} className="logo" alt="logo header" />
 

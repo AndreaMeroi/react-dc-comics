@@ -2,6 +2,7 @@ import mainBgImg from '../assets/img/jumbotron.jpg'
 
 import AppBluBar from '../components/AppBluBar'
 
+
 export default function Main() {
     return (
         <main>
@@ -18,7 +19,6 @@ export default function Main() {
 
 
             </div>
-
 
 
 
