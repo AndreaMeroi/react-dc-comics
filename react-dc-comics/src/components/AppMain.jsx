@@ -1,5 +1,6 @@
 
 import mainBgImg from '../assets/img/jumbotron.jpg'
+import AppBannerBlu from './appBannerBlu'
 import AppCard from './AppCard'
 
 
@@ -30,9 +31,27 @@ export default function Main() {
                             <AppCard title={"Batman Beyond #1"} img={"https://imgs.search.brave.com/jgxYlrx442aozemzjqdmCsd9DkIkRollJp1T8sG8TfE/rs:fit:720:1106:1/g:ce/aHR0cHM6Ly9veXN0/ZXIuaWduaW1ncy5j/b20vd29yZHByZXNz/L3N0Zy5pZ24uY29t/LzIwMTgvMTAvU1RM/MDk3MDk1LTcyMHgx/MTA2LmpwZw"} />
                         </div>
                     </div>
-                </div>
 
+                    <div className='row'>
+                        <div className='col'>
+                            <AppBannerBlu img={"../assets/img/buy-comics-digital-comics.png"} name={"Digital Comics"} />
+                        </div>
+                        <div className='col'>
+                            <AppBannerBlu img={"../assets/img/buy-comics-digital-comics.png"} name={"Digital Comics"} />
+                        </div>
+                        <div className='col'>
+                            <AppBannerBlu img={"../assets/img/buy-comics-digital-comics.png"} name={"Digital Comics"} />
+                        </div>
+                        <div className='col'>
+                            <AppBannerBlu img={"../assets/img/buy-comics-digital-comics.png"} name={"Digital Comics"} />
+                        </div>
+                        <div className='col'>
+                            <AppBannerBlu img={"../assets/img/buy-comics-digital-comics.png"} name={"Digital Comics"} />
+                        </div>
+                    </div>
+                </div>
             </section>
+
 
         </main >
     )
