@@ -5,10 +5,24 @@
 }
 
 .container {
+    width: 80%;
+    max-width: 1176px;
+    margin: auto
+}
 
-    align-items: center;
-    background-color: white;
-    margin-top: 1rem;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem
+}
+
+.col {
+    width: 100% / 3;
+    padding: 1rem
+}
+
+.img {
+    max-width: 100%;
 }
 
 body {
@@ -68,4 +82,13 @@ footer {
     background-repeat: no-repeat;
 
 
+}
+
+.card {
+    background-color: white;
+
+    h3 {
+        text-align: center;
+        padding: 1rem 0;
+    }
 }
