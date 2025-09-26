@@ -1,7 +1,7 @@
 import mainBgImg from '../assets/img/jumbotron.jpg'
 
-import AppBluBar from '../components/AppBluBar'
 
+//                <button className='btn'> current series </button>
 
 export default function Main() {
     return (
@@ -12,10 +12,6 @@ export default function Main() {
                 <img src={mainBgImg} className='bgImg' alt="bg Img " />
 
                 <button className='btn'> current series </button>
-
-                <AppBluBar />
-
-
 
 
             </div>
