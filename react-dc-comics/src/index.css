@@ -17,11 +17,11 @@
 }
 
 .col {
-    width: 100% / 3;
+    width: calc(100% / 3);
     padding: 1rem
 }
 
-.img {
+img {
     max-width: 100%;
 }
 
@@ -80,6 +80,14 @@ footer {
     background-image: url("./assets/img/footer-bg.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+
+
+}
+
+.banner {
+    display: flex;
+    background-color: blue;
+    width: 100%;
 
 
 }
