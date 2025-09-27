@@ -3,6 +3,11 @@ import mainBgImg from '../assets/img/jumbotron.jpg'
 import AppBannerBlu from './appBannerBlu'
 import AppCard from './AppCard'
 import buyDig from "../assets/img/buy-comics-digital-comics.png"
+import merch from "../assets/img/buy-comics-merchandise.png"
+import subs from "../assets/img/buy-comics-subscriptions.png"
+import locator from "../assets/img/buy-comics-shop-locator.png"
+import powVis from "../assets/img/buy-dc-power-visa.svg"
+
 
 
 export default function Main() {
@@ -35,15 +40,15 @@ export default function Main() {
                 </div>
                 <div className="banner">
 
-                    <AppBannerBlu name={"Digital Comics"} img={buyDig} />
+                    <AppBannerBlu img={buyDig} name={"Digital Comics"} />
 
-                    <AppBannerBlu img={"../assets/img/buy-comics-merchandise.png"} name={"DC Merchandise"} />
+                    <AppBannerBlu img={merch} name={"DC Merchandise"} />
 
-                    <AppBannerBlu img={"../assets/img/buy-comics-subscriptions.png"} name={"Subscription"} />
+                    <AppBannerBlu img={subs} name={"Subscription"} />
 
-                    <AppBannerBlu img={"../assets/img/buy-comics-shop-locator.png"} name={"Comic shop locator"} />
+                    <AppBannerBlu img={locator} name={"Comic shop locator"} />
 
-                    <AppBannerBlu img={"../assets/img/buy-dc-power-visa.svg"} name={"DC Power visa"} />
+                    <AppBannerBlu img={powVis} name={"DC Power visa"} />
                 </div>
 
             </section>
