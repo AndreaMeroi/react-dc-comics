@@ -9,6 +9,8 @@ export default function AppBannerBlu(promps) {
                 <h3> {promps.name} </h3>
             </a>
 
+
+
         </div>
 
     )

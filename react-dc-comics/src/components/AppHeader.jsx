@@ -8,10 +8,8 @@ export default function AppHeader() {
             <div className="container">
                 <div className='row'>
                     <div className='col'>
-
                         <img src={headerLogo} className="logo" alt="logo header" />
                     </div>
-
                     <nav className='col'>
 
                         <a href=''>CHARACTERS</a>
